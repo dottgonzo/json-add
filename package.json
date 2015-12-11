@@ -19,7 +19,9 @@
     "url": "https://github.com/dottgonzo/json-add/issues"
   },
   "dependencies": {
-    "deep-diff": "^0.3.2",
-    "verbo": "0.0.7"
+    "deep-diff": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1"
   }
 }
