@@ -1,7 +1,7 @@
 {
   "name": "json-add",
   "version": "0.0.1",
-  "description": "",
+  "description": "Union of two json",
   "main": "index.js",
   "scripts": {
     "test": "node ./tests/main.js",
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "https://github.com/dottgonzo/json-add.git"
   },
-  "author": "",
+  "keywords": [
+  "json",
+  "unions"
+],
+  "author": "Dario Caruso",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dottgonzo/json-add/issues"
