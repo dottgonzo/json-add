@@ -31,7 +31,7 @@ gulp.task('pushPatch', ['Addbumped'], function () {
         message: 'enter a commit msg, eg initial commit'
     }, function (res) {
         return gulp.src('.').pipe(git.commit(res.commit)).on('end', function () {
-            this.pipe(git.push())
+            git.push()
         });;
     }));
 });
