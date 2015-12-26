@@ -8,7 +8,6 @@ var tsProject = ts.createProject('tsconfig.json');
 var spawn = require('child_process').spawn;
 var bump = require('gulp-bump');
 
-
 var prompt = require('gulp-prompt');
 var git = require('gulp-git');
 

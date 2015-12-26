@@ -1,6 +1,6 @@
 {
   "name": "json-add",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Union of two json",
   "main": "index.js",
   "scripts": {
