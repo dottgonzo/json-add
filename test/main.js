@@ -4,13 +4,23 @@ expect=require('chai').expect;
 var arr1_copy={
   aa:"aa",
   bb:"bb",
-  zz:"zz"
+  zz:"zz",
+  hh:{
+    qq:"rr",
+    zz:['pp','ff']
+  }
+
 }
 
 var arr1={
   aa:"aa",
   bb:"bb",
-  zz:"zz"
+  zz:"zz",
+  hh:{
+    qq:"rr",
+    zz:['pp','ff']
+  }
+
 };
 
 var arr2={
@@ -23,7 +33,11 @@ var arr3={
   aa:"aa",
   bb:"cc",
   dd:"dd",
-  zz:"zz"
+  zz:"zz",
+  hh:{
+    qq:"rr",
+    zz:['pp','ff']
+  }
 };
 
 merge(arr1,arr2);
