@@ -1,6 +1,6 @@
 import * as diff from "deep-diff";
 
-export = function(original: Object, addon: Object) {
+export default function merge(original: Object, addon: Object) {
     diff.observableDiff(original, addon, function(d) {
         // Apply all changes except those to the 'name' property...
         if (d.kind !== "D") {
